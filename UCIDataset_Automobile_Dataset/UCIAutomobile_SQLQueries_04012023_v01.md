@@ -28,10 +28,10 @@ FROM
 
 Result: **OK**
 
-Reasom: Data falls within the [data description](https://archive.ics.uci.edu/ml/datasets/Automobile)
+Reason: Data falls within the [data description](https://archive.ics.uci.edu/ml/datasets/Automobile)
 
 #### num_of_doors
-There should onlly be two values: Four or Two
+There should only be two values: Four or Two
 
 
 ```sql
