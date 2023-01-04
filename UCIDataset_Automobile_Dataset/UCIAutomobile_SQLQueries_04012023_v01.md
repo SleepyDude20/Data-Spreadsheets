@@ -12,6 +12,7 @@ FROM
 ```
 
 Result: **OK**
+
 Reason: Data falls within the [data description](https://archive.ics.uci.edu/ml/datasets/Automobile)
 
 #### length
@@ -26,6 +27,7 @@ FROM
 ```
 
 Result: **OK**
+
 Reasom: Data falls within the [data description](https://archive.ics.uci.edu/ml/datasets/Automobile)
 
 #### num_of_doors
@@ -43,7 +45,7 @@ Result: **FAIL**
 Reason: There is missing data i.e. null. Upon closer inspection there are only two rows with missing data
 
 <u>Updating missing values:</u>
-Updating two rows:
+Updating two rows
 
 ```sql
 UPDATE
@@ -77,6 +79,7 @@ FROM
 ```
 
 Result: **FAIL**
+
 Reason: There is an misspelling error within the values 'tow' instead-of 'two'. Looking at the dataset closer, there is only one row which has this misspell
 
 <u>Updating errors:</u>
@@ -103,6 +106,7 @@ FROM
 ```
 
 Result: **FAIL**
+
 Reason: Max number is 70, instead-of a max of 23. Looking into the data closely, 1 row contains a compression_ratio over 23. Checking-in with stakeholders, this row will be deleted
 
 <u>Deleting Row:</u>
@@ -126,6 +130,7 @@ FROM
 ```
 
 Result: **FAIL**
+
 Reason: There are two instances of 4wd when searching for unique values, therefore there is probably an extra space in one of the entries
 
 <u>Confirming 4wd entries:</u>
