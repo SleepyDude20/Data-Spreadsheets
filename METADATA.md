@@ -7,3 +7,7 @@ It will contain **only** Excel spreadsheets. Each spreadsheet will contain:
 # File Naming Convention
 
 [Topic]\_[FileName]\_[DDMMYYYY]_v[VersionNumber]
+
+# Folder Naming Convention
+
+[Topic]\_[FileName]
